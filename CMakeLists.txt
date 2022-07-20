@@ -16,3 +16,7 @@ add_executable(9.7.factor chap9/9.7.factor.c)
 add_executable(9.8.binary chap9/9.8.binary.c)
 
 add_executable(usehotel chap9/hotel.h chap9/usehotel.c chap9/hotel.c)
+
+add_executable(9.12.loccheck chap9/9.12.loccheck.c)
+add_executable(9.13.swap1 chap9/9.13.swap1.c)
+add_executable(9.13.swap3 chap9/9.13.swap3.c)

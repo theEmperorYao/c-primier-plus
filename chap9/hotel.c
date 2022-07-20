@@ -16,6 +16,7 @@ int menu(void) {
     printf("\n%s%s\n", STARS, STARS);
     while ((status = scanf("%d", &code)) != 1 || (code < 1 || code > 5)) {
         if (status != 1) {
+            // 跳至下一个空白字符
             scanf("%*s");
         }
         printf("Enter an integer from 1 to 5,please.\n");
