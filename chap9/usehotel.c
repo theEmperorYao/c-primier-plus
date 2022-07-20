@@ -2,7 +2,7 @@
 // Created by Administrator on 2022/7/19.
 //
 
-#include "stdio.h"
+#include <stdio.h>
 #include "hotel.h"
 
 int main(void) {

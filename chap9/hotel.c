@@ -6,6 +6,7 @@
 #include "hotel.h"
 
 int menu(void) {
+    setbuf(stdout, NULL);
     int code, status;
     printf("\n%s%s\n", STARS, STARS);
     printf("Enter the number of the desired hotel:\n");
@@ -23,8 +24,9 @@ int menu(void) {
 }
 
 int getnights(void) {
+    setbuf(stdout, NULL);
     int nights;
-    printf("How many nights are needed?");
+    printf("How many nights are needed?\n");
     while (scanf("%d", &nights) != 1) {
         scanf("%*s");// 处理非整数输入
         printf("Please enter an integer,such as 2.\n");
@@ -33,6 +35,7 @@ int getnights(void) {
 }
 
 void showprice(double rate, int nights) {
+    setbuf(stdout, NULL);
     int n;
     double total = 0.0;
     double factor = 1.0;
