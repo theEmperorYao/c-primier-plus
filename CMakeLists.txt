@@ -31,3 +31,8 @@ add_executable(10.12.order chap10/10.12.order.c)
 add_executable(10.13.ptr.ops chap10/10.13.ptr.ops.c)
 
 add_executable(10.14.arf chap10/10.14.arf.c)
+add_executable(10.15.zippo1 chap10/10.15.zippo1.c)
+add_executable(10.16.zippo2 chap10/10.16.zippo2.c)
+add_executable(10.17.array2d chap10/10.17.array2d.c)
+add_executable(10.18.vararr2d chap10/10.18.vararr2d.c)
+add_executable(10.9.test chap10/10.9.test.c)
